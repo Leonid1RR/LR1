@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+img{
+    height: 200px;
+}
+
 .selector select{
     font-size: 30px; /* Увеличивает размер шрифта */
     padding: 10px; /* Добавляет отступы внутри селектора */
