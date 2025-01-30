@@ -1,0 +1,82 @@
+.foot{
+    background-color: darkred;
+    font-size: 20px;
+    font-style: initial;
+    color: white;
+    width: 100%;
+}
+
+.selector select{
+    font-size: 30px; /* Увеличивает размер шрифта */
+    padding: 10px; /* Добавляет отступы внутри селектора */
+    width: 200px; /* Увеличивает ширину селектора */
+    background-color: rgb(237, 237, 237);
+    border-radius: 10em;
+    border: 0;
+}
+
+.not{
+    min-height: 10em;
+}
+
+.shapka{
+    background-color: chartreuse;
+    color: blue;
+    font-size: 90px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+.a{
+    color: rgb(255, 255, 255);
+}
+
+.link{
+    color:blue;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.disk{
+    font-size: 20px;
+}
+
+.price{
+    font-size: 30px;
+    color: red;
+    text-align: right;
+}
+
+#t1{grid-area: a;}
+#t2{grid-area: b;}
+#t3{grid-area: c;}
+#t4{grid-area: d;}
+
+.selector{
+    padding: 10px;
+    ;
+}
+
+.card{
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 2em;
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: 20% 80%;
+    grid-template-rows: 1fg 1fg 1fg ; */
+    grid-template-areas: 
+    "a a" 
+    "b c"
+    "d d";
+    padding: 1em;
+    margin: 2em;;
+    width: 80%;
+    align-items: center;
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
