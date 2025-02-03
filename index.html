@@ -1,169 +1,198 @@
-<!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <link rel="stylesheet" href="DesktopStyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Store.vw</title>
 </head>
-
-<body>
-    <header class="shapka">
+<body display: flex; flex-direction: column; и min-height: 100vh>
+    <header min-width="100%" class="shapka">
         <b>E-Store</b> 
     </header>
-
-    <div class="card">
-        <div class="t1">
+<div class="not"></div>
+<div class="selector">
+    <select name="filter" id="filter">
+        <option value="0">all devices</option>
+        <option value="1">smartphones</option>
+        <option value="2">laptops</option>
+    </select>
+</div>
+    <div class="card" id="1">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/mobile/samsung/sms938bztccau">Samsung Galaxy S25
                     Ultra</a></p>
         </div>
-        <div class="t2" >
-            <img src="samsungS25.png" alt="photo">
+        <div id="t2" >
+            <img src="samsungS25.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             Android, экран 6.9" AMOLED (1440x3120) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 12 ГБ, память 512 ГБ, камера
             200 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM/eSIM), влагозащита IP68
         </div>
-        <div class="t4 price">6299 руб.</div>
+        <div id="t4" class="price">6299 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="1">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/mobile/samsung/sma556ezkacau">
                 Samsung Galaxy A55
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="samsungA55.png" alt="photo">
+        <div id="t2" >
+            <img src="samsungA55.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             Android, экран 6.6" AMOLED (1080x2340) 120 Гц, Exynos 1480, ОЗУ 8 ГБ, память 128 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM/eSIM), влагозащита IP67
         </div>
-        <div class="t4 price">1191 руб.</div>
+        <div id="t4" class="price">1191 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="1">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/mobile/vivo/vv405g12512ggp">
                 Vivo V40
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="vivoV40.png" alt="photo">
+        <div id="t2" >
+            <img src="vivoV40.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             Android, экран 6.78" AMOLED (1260x2800) 120 Гц, Qualcomm Snapdragon 7 Gen 3, ОЗУ 12 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 5500 мАч, 2 SIM (nano-SIM/eSIM), влагозащита IP68
         </div>
-        <div class="t4 price">2399 руб.</div>
+        <div id="t4" class="price">2399 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="1">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/mobile/apple/iphone15">
                 Apple iPhone 15
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="iphone15.png" alt="photo">
+        <div id="t2" >
+            <img src="iphone15.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             Apple iOS, экран 6.1" OLED (1179x2556) 60 Гц, Apple A16 Bionic, ОЗУ 6 ГБ, память 128 ГБ, камера 48 Мп, аккумулятор 3349 мАч, 1 SIM (nano-SIM/eSIM), влагозащита IP68
         </div>
-        <div class="t4 price">2500 руб.</div>
+        <div id="t4" class="price">2500 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="1">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/mobile/xiaomi/note138256nfcwbl">
                 Xiaomi Redmi Note 13
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="redminote13.png" alt="photo">
+        <div id="t2" >
+            <img src="redminote13.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             Android, экран 6.67" AMOLED (1080x2400) 120 Гц, Qualcomm Snapdragon 685, ОЗУ 8 ГБ, память 256 ГБ, поддержка карт памяти, камера 108 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), влагозащита IP54
         </div>
-        <div class="t4 price">740 руб.</div>
+        <div id="t4" class="price">740 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="2">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/notebook/asus/fx507zc4hn143">
                 ASUS TUF Gaming F15
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="asusTUF.png" alt="photo">
+        <div id="t2" >
+            <img src="asusTUF.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             15.6" 1920 x 1080, IPS, 144 Гц, Intel Core i5 12500H, 16 ГБ DDR4, SSD 512 ГБ, видеокарта NVIDIA GeForce RTX 3050 4 ГБ (TGP 95 Вт), без ОС, цвет крышки темно-серый, аккумулятор 56 Вт·ч
         </div>
-        <div class="t4 price">2799 руб.</div>
+        <div id="t4" class="price">2799 руб.</div>
     </div>
-
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="2">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/notebook/lenovo/82x7003lrk">
                 Lenovo IdeaPad Slim 3
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="lenovoIDEAPAD.png" alt="photo">
+        <div id="t2" >
+            <img src="lenovoIDEAPAD.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             15.6" 1920 x 1080, IPS, 60 Гц, Intel Core i3 1315U, 8 ГБ LPDDR5, SSD 512 ГБ, видеокарта встроенная, без ОС, цвет крышки серый, аккумулятор 47 Вт·ч
         </div>
-        <div class="t4 price">1550 руб. </div>
+        <div id="t4" class="price">1550 руб. </div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="2">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/notebook/apple/mc7x4">
                 Apple Macbook Air 13" M2
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="mac.png" alt="photo">
+        <div id="t2" >
+            <img src="mac.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             13.6" 2560 x 1664, IPS, 60 Гц, Apple M2, 16 ГБ, SSD 256 ГБ, видеокарта встроенная, Mac OS, цвет крышки темно-синий, аккумулятор 52.6 Вт·ч
         </div>
-        <div class="t4 price">3772.96 руб.</div>
+        <div id="t4" class="price">3772.96 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="2">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/notebook/acer/nhqsjep001">
                 Acer Nitro V 15
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="acer.png" alt="photo">
+        <div id="t2" >
+            <img src="acer.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             15.6" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 5 7535HS, 16 ГБ DDR5, SSD 512 ГБ, видеокарта NVIDIA GeForce RTX 2050 4 ГБ (TGP 75 Вт), без ОС, цвет крышки черный, аккумулятор 57 Вт·ч
         </div>
-        <div class="t4 price">2498 руб.</div>
+        <div id="t4" class="price">2498 руб.</div>
     </div>
-
-    <div class="card">
-        <div class="t1">
+    <div class="card" id="2">
+        <div id="t1" colspan="2">
             <p class="link"><a target="_blank" href="https://catalog.onliner.by/notebook/msi/f13mg094xby">
                 MSI Modern 15
             </a></p>
         </div>
-        <div class="t2" >
-            <img src="msi.png" alt="photo">
+        <div id="t2" >
+            <img src="msi.png" alt="photo" height="200px">
         </div>
-        <div class="t3 disk">
+        <div id="t3"  class="disk">
             15.6" 1920 x 1080, IPS, 60 Гц, Intel Core i3 1315U, 16 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, без ОС, цвет крышки серебристый, аккумулятор 46.8 Вт·ч
         </div>
-        <div class="t4 price">2084 руб.</div>
+        <div id="t4" class="price">2084 руб.</div>
     </div>
-
+    <div class="card" id=" ">
+        <div id="t1" colspan="2">
+            <p class="link"><a target="_blank" href="https://catalog.onliner.by/mobile/samsung/sms938bztccau">
+                
+            </a></p>
+        </div>
+        <div id="t2" >
+            <img src="" alt="photo" height="200px">
+        </div>
+        <div id="t3"  class="disk">
+           
+        </div>
+        <div id="t4" class="price"></div>
+    </div>
+    <footer class="foot">
+    <table border="0" align="center" width="80%">
+        <tr>
+            <td align="center" width="30%">Disign by Leonid</td>
+            <td align="center" width="30%"><a class="a" href="">contacts</a></td>
+            <td align="center" width="30%">information from <a class="a" target="_blank" href="https://www.onliner.by/">Onliner.by</a>
+            </td>
+        </tr>
+    </table>
+</footer>
+<script>
+    document.getElementById('filter').addEventListener('change', function() {
+        var selectedValue = this.value;
+        var devices = document.querySelectorAll('.card');
+        devices.forEach(function(device) {
+            if (selectedValue === '0' || device.id === selectedValue) {
+                device.style.display = 'block';
+            } else {
+                device.style.display = 'none';
+            }
+        });
+    });
+</script>
 </body>
-
-</html>
+ </html>
